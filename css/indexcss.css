@@ -244,6 +244,9 @@ nav {
     .img-slider .slide p:hover {
         font-size: 30px;
     }
+    .vejamais {
+        font-size: 25px;
+    }
 }
 @media (min-device-width: 1100px) {
     .img-slider {
@@ -456,148 +459,6 @@ nav {
     -webkit-transform: scale(1.1);
      transform: scale(1.1);
 }
-@media only screen and (max-device-width: 800px) {
-    .Menutotal {
-        width: 100%;
-        height: 8em;
-    }
-    .MenuPrincipal {
-        width: 100%;
-        height: 8em;
-    }
-    .Ulprincipal {
-        padding: 0;
-    }
-    .Liprincipal {
-        margin-left: 0em;
-        margin-top: 1em;
-    }
-    .imgbotao {
-        margin-top: 1em;
-        font-size: 30px;
-    }
-    .imgmenu {
-        margin-top: 1em;
-        height: 80px;
-    }
-    .imgmenus {
-        margin-top: 1em;
-        height: 50px;
-        width: 200px;
-        margin-right: 10px;
-    }
-input[type=checkbox]:checked~nav {
-    transform: translate(350px);
-}
-nav {
-    border-radius: 0.3em;
-    width: 20em;
-    height: 80dvh;
-    margin-top: 19px;
-    left: -350px;
-}
-.TituloVertical {
-    margin-left: -25px;
-    font-size: 55px;
-}
-.Avertical {
-    margin-left: -100px;
-    font-size: 35px;
-    padding: 10px 5px;
-}
-.Avertical:hover {
-    font-size: 35px;
-    color: rgb(250, 1, 1);
-    transition: 0.3s;
-}
-.temas {
-    margin: 30px;
-    width: 80%;
-    height: 600px;
-}
-.titulotopico {
-    margin-top: -20px;
-    text-shadow: 0 0 5px rgb(255, 7, 7);
-    font-size: 50px;
-}
-.imgtopico {
-    width: 80%;
-    height: 300px;
-    border-radius: 3px;
-}
-.ptopico {
-    font-size: 35px;
-}
-.buttontopico {
-    margin-top: -20px;
-    width: 350px;
-    font-size: 40px;
-}
-}
-@media only screen and (min-device-width: 800px) and (max-device-width: 1100px) {
-    .Menutotal {
-    width: 100%;
-    height: 5em;
-}
-.MenuPrincipal {
-    width: 100%;
-    height: 5em;
-}
-.Ulprincipal {
-    padding: 0;
-}
-.Liprincipal {
-    margin-left: 0em;
-    margin-top: 1em;
-}
-input[type=checkbox]:checked~nav {
-    transform: translate(350px);
-}
-nav {
-    border-radius: 0.3em;
-    width: 20em;
-    height: 80dvh;
-    margin-top: 19px;
-    left: -350px;
-}
-.TituloVertical {
-      margin-left: -25px;
-    font-size: 45px;
-}
-.Avertical {
-      margin-left: -25px;
-    font-size: 28px;
-    padding: 10px 5px;
-}
-.Avertical:hover {
-    font-size: 30px;
-    color: rgb(250, 1, 1);
-    transition: 0.3s;
-}
-.temas {
-    margin: 30px;
-    width: 80%;
-    height: 600px;
-}
-.titulotopico {
-    margin-top: -20px;
-    text-shadow: 0 0 5px rgb(255, 7, 7);
-    font-size: 50px;
-}
-.imgtopico {
-    width: 80%;
-    height: 300px;
-    border-radius: 3px;
-}
-.ptopico {
-    font-size: 35px;
-}
-.buttontopico {
-    margin-top: -20px;
-    width: 350px;
-    font-size: 40px;
-}
-}
 .footer {
     background-color: #000000;
     width: 100%;
@@ -667,4 +528,164 @@ nav {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+@media only screen and (max-device-width: 800px) {
+    .Menutotal {
+        width: 100%;
+        height: 8em;
+    }
+    .MenuPrincipal {
+        width: 100%;
+        height: 8em;
+    }
+    .Ulprincipal {
+        padding: 0;
+    }
+    .Liprincipal {
+        margin-left: 0em;
+        margin-top: 1em;
+    }
+    .imgbotao {
+        margin-top: 1em;
+        font-size: 30px;
+    }
+    .imgmenu {
+        margin-top: 1em;
+        height: 80px;
+    }
+    .imgmenus {
+        margin-top: 1em;
+        height: 50px;
+        width: 200px;
+        margin-right: 10px;
+    }
+input[type=checkbox]:checked~nav {
+    transform: translate(350px);
+}
+nav {
+    border-radius: 0.3em;
+    width: 20em;
+    height: 80dvh;
+    margin-top: 19px;
+    left: -350px;
+}
+.TituloVertical {
+    margin-left: -25px;
+    font-size: 55px;
+}
+.Avertical {
+    margin-left: -100px;
+    font-size: 32px;
+    padding: 10px 5px;
+}
+.Avertical:hover {
+    font-size: 32px;
+    color: rgb(250, 1, 1);
+    transition: 0.3s;
+}
+.temas {
+    margin: 30px;
+    width: 80%;
+    height: 600px;
+}
+.titulotopico {
+    margin-top: -20px;
+    text-shadow: 0 0 5px rgb(255, 7, 7);
+    font-size: 50px;
+}
+.imgtopico {
+    width: 80%;
+    height: 300px;
+    border-radius: 3px;
+}
+.ptopico {
+    font-size: 35px;
+}
+.buttontopico {
+    margin-top: -20px;
+    width: 350px;
+    font-size: 40px;
+}
+.contato {
+    width: 47%;
+    height: 150px;
+    margin: 15px;
+}
+.Amedia {
+    font-size: 5em;
+    margin:7px;
+}
+.direitos {
+    width: 47%;
+    height: 150px;
+    margin: 15px;
+}
+.Direitos {
+    margin-top: 10px;
+    font-size: 1.45em;
+}
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1100px) {
+    .Menutotal {
+    width: 100%;
+    height: 5em;
+}
+.MenuPrincipal {
+    width: 100%;
+    height: 5em;
+}
+.Ulprincipal {
+    padding: 0;
+}
+.Liprincipal {
+    margin-left: 0em;
+    margin-top: 1em;
+}
+input[type=checkbox]:checked~nav {
+    transform: translate(350px);
+}
+nav {
+    border-radius: 0.3em;
+    width: 20em;
+    height: 80dvh;
+    margin-top: 19px;
+    left: -350px;
+}
+.TituloVertical {
+      margin-left: -25px;
+    font-size: 45px;
+}
+.Avertical {
+      margin-left: -25px;
+    font-size: 28px;
+    padding: 10px 5px;
+}
+.Avertical:hover {
+    font-size: 30px;
+    color: rgb(250, 1, 1);
+    transition: 0.3s;
+}
+.temas {
+    margin: 30px;
+    width: 80%;
+    height: 600px;
+}
+.titulotopico {
+    margin-top: -20px;
+    text-shadow: 0 0 5px rgb(255, 7, 7);
+    font-size: 50px;
+}
+.imgtopico {
+    width: 80%;
+    height: 300px;
+    border-radius: 3px;
+}
+.ptopico {
+    font-size: 35px;
+}
+.buttontopico {
+    margin-top: -20px;
+    width: 350px;
+    font-size: 40px;
+}
 }
