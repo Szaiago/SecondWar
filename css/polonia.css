@@ -111,7 +111,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0 10px rgb(179, 179, 179);
-    text-align: center;
+    text-align: left;
 }
 .imgresumo {
     max-width: 100%;
@@ -394,6 +394,7 @@ nav {
 .imgresumo {
     max-width: 100%;
     height: 250px;
+    text-align: center;
 }
 p {
     margin: 10px;
@@ -417,6 +418,7 @@ h2 {
 .caixatema {
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 .imgtema {
     width: 100%;
