@@ -112,6 +112,7 @@ h4 {
     align-items: center;
     box-shadow: 0 0 10px rgb(179, 179, 179);
     text-align: left;
+    word-wrap: break-word;
 }
 .imgresumo {
     max-width: 100%;
