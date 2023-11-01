@@ -112,7 +112,6 @@ h4 {
     align-items: center;
     box-shadow: 0 0 10px rgb(179, 179, 179);
     text-align: left;
-    word-wrap: break-all;
 }
 .imgresumo {
     max-width: 100%;
@@ -124,6 +123,7 @@ p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
+    word-break: break-all;
     
 }
 .detalhes {
@@ -152,6 +152,7 @@ h2 {
     color: #000000;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
 }
 .caixatema {
     background-color: rgb(255, 255, 255);
