@@ -1,2 +1,2 @@
 # [SecondWar](https://szaiago.github.io/SecondWar/)
-é um site informativo sobreos acontecimentos da segunda guerra mundial.
+é um site informativo sobre os acontecimentos da segunda guerra mundial.
